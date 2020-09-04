@@ -4,7 +4,7 @@
 brew install ffmpeg
 
 ## 変換元ファイルを移動させる
-wavファイルはwavフォルダに、aviファイルはaviフォルダに移動させる
+音楽ファイルはmusicフォルダに、動画ファイルはvideoフォルダに移動させる
 
 ## config_templete.iniを同階層にコピーし、config.iniとrenameする
 

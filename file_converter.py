@@ -21,7 +21,7 @@ output_folder = 'output'
 music_data = glob.glob(music_folder + '/*.' + music_extension)
 video_data = glob.glob(video_folder + '/*.' + video_extension)
 
-# wavのファイル変換
+# musicフォルダの動画をmp3ファイルに変換
 if os.listdir(music_folder) != '[]':
     for data in music_data:
         print('start:' + os.path.splitext(os.path.basename(data))[0])
@@ -29,7 +29,7 @@ if os.listdir(music_folder) != '[]':
         if delete_file == '0':
             os.remove(data)
 
-# aviのファイル変換
+# videoフォルダの動画をmp4ファイルに変換
 if os.listdir(video_folder) != '[]':
     for data in video_data:
         print('start:' + os.path.splitext(os.path.basename(data))[0])
